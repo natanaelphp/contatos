@@ -1,0 +1,23 @@
+{
+    "name": "natanael/contatos",
+    "description": "Project for test in cohros",
+    "authors": [
+        {
+            "name": "Natanael Colacino",
+            "email": "natanael.php@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Helpers/ArrayHelper.php",
+            "src/Helpers/View.php",
+            "src/Helpers/GeneralHelpers.php"
+        ]
+    },
+    "require": {
+        "respect/rest": "^0.6.0"
+    }
+}
